@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <title>forms</title>
 </head>
 <body>
-    <div class="header">
     <h1 class="heading">The Code Review</h1>
+    <div class="main">
     <h2>Sign up for our newsletter</h2>
-    <p>get the latest news on how your code is doing right in your inbox</p>
-    </div>
-    <hr>
-    <form>
+    <p class="sub">get the latest news on how your code is doing right in your inbox</p>
+    <hr class="hr1">
+    <hr class="hr2">
+    <form class="contact">
     <h2>Contact Information</h2>
     <label for="Name">Full Name</label>
     <input type="text" name="Name" placeholder="required" required id="Name" class="input"> 
@@ -63,8 +66,8 @@
         </form>
         <p>Newsletter format</p>
         <form>
-            <input type="radio" name="type" id="html" class="type">
-            <label for="html">HTML</label>
+            <input type="radio" name="type" id="html2" class="type">
+            <label for="html2">HTML</label>
             <br>
             <input type="radio" name="type" id="plain" class="type">
             <label for="plain">Plain text</label>
@@ -78,5 +81,6 @@
     <footer>
         <p class="fine"><small>Copyright The Code Review</small></p>
     </footer>
+    </div>
 </body>
 </html>
