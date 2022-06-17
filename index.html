@@ -14,19 +14,69 @@
     <p>get the latest news on how your code is doing right in your inbox</p>
     </div>
     <hr>
-    <div class="form">
-    <form action="">
+    <form>
     <h2>Contact Information</h2>
     <label for="Name">Full Name</label>
-    <input type="text" name="Name" placeholder="required" required> 
+    <input type="text" name="Name" placeholder="required" required id="Name" class="input"> 
     <br>
     <label for="Mail">Email Adress</label>
-    <input type="email" name="Mail" placeholder="required" required>
+    <input type="email" name="Mail" placeholder="required" required id="Mail" class="input">
     <br>
-    <label for="Number">Phone Number</label>
-    <input type="phone" name="Phone" placeholder="required" required>
+    <label for="Phone">Phone Number</label>
+    <input type="number" name="Phone" id="Phone" class="input">
+    <br>
+    <label for="Adress">Street Adress</label>
+    <input type="text" id="Adress" class="input">
+    <br>
+    <label for="City">City</label>
+    <input type="text" id="City" class="input">
+    <br>
+    <label for="State">State</label>
+    <select name="User_State" id="State">
+        <option value="dont_select">Choose State</option>
+        <option value="ACT">ACT</option>
+        <option value="NSW">NSW</option>
+        <option value="NT">NT</option>
+        <option value="QLD">QLD</option>
+        <option value="SA">SA</option>
+        <option value="VIC">VIC</option>
+        <option value="TAS">TAS</option>
+        <option value="WA">WA</option>
+    </select>
+    <br>
+    <label for="Zip">Zip Code</label>
+    <input type="text" name="Zip" id="Zip" class="input">
     </form>
-      
+    <hr class="hr">
+    <div class="newsletter">
+        <h2>Newsletter</h2>
+        <p>Select the newsletters you would like to recive</p>
+        <form>
+            <input type="checkbox" id="html" class="check">
+            <label for="html">HTML News</label>
+            <br>
+            <input type="checkbox" id="css" class="check">
+            <label for="css">CSS News</label>
+            <br>
+            <input type="checkbox" id="java" class="check">
+            <label for="java">Javascript News</label>
+        </form>
+        <p>Newsletter format</p>
+        <form>
+            <input type="radio" name="type" id="html" class="type">
+            <label for="html">HTML</label>
+            <br>
+            <input type="radio" name="type" id="plain" class="type">
+            <label for="plain">Plain text</label>
+        </form>
+        <p>Other Topics you'd like to hear about</p>
+        <form class="final">
+            <textarea name="topics" id="topic" cols="30" rows="8" class="text"></textarea>
+            <input type="submit" name="sign_up" value="Sign up" class="subimt">
+        </form>
     </div>
+    <footer>
+        <p class="fine"><small>Copyright The Code Review</small></p>
+    </footer>
 </body>
 </html>
