@@ -7,7 +7,8 @@
 }
 
 h2,
-p {
+p,
+legend {
     font-family: 'Merriweather', serif;
 }
 
@@ -39,7 +40,7 @@ select {
 }
 
 #Zip {
-    width: 40%;
+    width: 50%;
 }
 
 .hr {
@@ -64,6 +65,10 @@ select {
 .hr2 {
     border-top: 3px solid black;
     margin: 3px auto 20px auto;
+}
+
+.topic {
+    margin: 20px;
 }
 
 input[type="submit"] {
@@ -96,7 +101,16 @@ textarea:focus {
     background-color: #c9cacf;
 }
 
+fieldset {
+    border: none;
+}
 
+legend {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
 
 @media screen and (min-width: 768px) {
     .main {
@@ -105,8 +119,6 @@ textarea:focus {
         width: 70%;
         margin: 20px 15%;
         justify-content: center;
-
-
     }
 
     .heading {
@@ -123,4 +135,10 @@ textarea:focus {
         background-color: #e1e2e7;
         border-radius: 2%;
     }
+
+    #Zip {
+        width: 25%;
+    }
+
+
 }
