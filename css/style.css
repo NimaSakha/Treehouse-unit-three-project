@@ -35,6 +35,10 @@ select,
     font-family: 'Merriweather', serif;
 }
 
+.input::-webkit-input-placeholder {
+    text-align: right;
+}
+
 select {
     height: 55px;
 }
