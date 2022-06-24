@@ -5,6 +5,7 @@
     background-color: #30434e;
     color: white;
 }
+
 h2,
 p,
 legend {
@@ -68,7 +69,7 @@ select {
 .hr2 {
     border-top: 3px solid black;
     margin: 3px auto 20px auto;
-    
+
 }
 
 .topic {
