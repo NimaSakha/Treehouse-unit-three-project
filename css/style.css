@@ -24,7 +24,6 @@ h2 {
 .input,
 select,
 .text {
-    display: flex;
     width: 80%;
     height: 35px;
     padding: 10px 20px;
@@ -78,7 +77,6 @@ select {
 
 input[type="submit"] {
     margin: auto;
-    display: flex;
     width: 80%;
     height: 60px;
     justify-content: center;
@@ -146,26 +144,17 @@ legend {
         width: 25%;
     }
 
-    .I1 {
+    .I1{
         display: flex;
-        align-content: flex-end;
-    }
-
-    label {
+        align-items: stretch;
         margin: auto;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 0;
+    }
+    label{
+        width: 15%;
     }
 
-    input {
-        margin-left: 100px;
-    }
-
-    .contact_info {
-        display: flex;
-        flex-direction: column;
-        justify-content: baseline;
-    }
+ 
 
 
 }
