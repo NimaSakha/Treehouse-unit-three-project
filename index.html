@@ -1,100 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
     <title>forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="heading">The Code Review</h1>
     <div class="main">
-    <h2>Sign up for our newsletter</h2>
-    <p class="sub">get the latest news on how your code is doing right in your inbox</p>
-    <hr class="hr1">
-    <hr class="hr2">
-    <form class="info">
+      <h2>Sign up for our newsletter</h2>
+      <p class="sub">
+        get the latest news on how your code is doing right in your inbox
+      </p>
+      <hr class="hr1" />
+      <hr class="hr2" />
+      <form class="info" data-netlify="true">
         <fieldset class="contact_info">
-            <legend>Contact Information</legend>
-            <div class="I1">
-                <label for="Name">Full Name</label>
-                <input type="text" name="Name" placeholder="required" required id="Name" class="input"> 
-            </div>
-            <br>
-            <div class="I1">
-                <label for="Mail">Email Adress</label>
-                <input type="email" name="Mail" placeholder="required" required id="Mail" class="input">
-            </div>
-            <br>
-            <div class="I1">
-                <label for="Phone">Phone Number</label>
-                <input type="tel" name="Phone" id="Phone" class="input" placeholder="Phone Number">
-            </div>
-            <br>
-            <div class="I1">
-                <label for="Adress">Street Address</label>
-                <input type="text" id="Adress" class="input" name="adress" placeholder="Home Address">
-            </div>
-            <br>
-            <div class="I1">
-                <label for="City">City</label>
-                <input type="text" id="City" class="input" name="city" placeholder="City">
-            </div>
-            <br>
-            <div class="I1">
+          <legend>Contact Information</legend>
+          <div class="I1">
+            <label for="Name">Full Name</label>
+            <input
+              type="text"
+              name="Name"
+              placeholder="required"
+              required
+              id="Name"
+              class="input"
+            />
+          </div>
+          <br />
+          <div class="I1">
+            <label for="Mail">Email Adress</label>
+            <input
+              type="email"
+              name="Mail"
+              placeholder="required"
+              required
+              id="Mail"
+              class="input"
+            />
+          </div>
+          <br />
+          <div class="I1">
+            <label for="Phone">Phone Number</label>
+            <input
+              type="tel"
+              name="Phone"
+              id="Phone"
+              class="input"
+              placeholder="Phone Number"
+            />
+          </div>
+          <br />
+          <div class="I1">
+            <label for="Adress">Street Address</label>
+            <input
+              type="text"
+              id="Adress"
+              class="input"
+              name="adress"
+              placeholder="Home Address"
+            />
+          </div>
+          <br />
+          <div class="I1">
+            <label for="City">City</label>
+            <input
+              type="text"
+              id="City"
+              class="input"
+              name="city"
+              placeholder="City"
+            />
+          </div>
+          <br />
+          <div class="I1">
             <label for="State">State</label>
-                <select name="User_State" id="State">
-                    <option value="dont_select">Choose State</option>
-                    <option value="ACT">ACT</option>
-                    <option value="NSW">NSW</option>
-                    <option value="NT">NT</option>
-                    <option value="QLD">QLD</option>
-                    <option value="SA">SA</option>
-                    <option value="VIC">VIC</option>
-                    <option value="TAS">TAS</option>
-                    <option value="WA">WA</option>
-                </select>
-            </div>
-            <br>
-            <div class="I1">
-                <label for="Zip">Zip Code</label>
-                <input type="text" name="Zip" id="Zip" class="input" maxlength="10" placeholder="Zip">
-            </div>
+            <select name="User_State" id="State">
+              <option value="dont_select">Choose State</option>
+              <option value="ACT">ACT</option>
+              <option value="NSW">NSW</option>
+              <option value="NT">NT</option>
+              <option value="QLD">QLD</option>
+              <option value="SA">SA</option>
+              <option value="VIC">VIC</option>
+              <option value="TAS">TAS</option>
+              <option value="WA">WA</option>
+            </select>
+          </div>
+          <br />
+          <div class="I1">
+            <label for="Zip">Zip Code</label>
+            <input
+              type="text"
+              name="Zip"
+              id="Zip"
+              class="input"
+              maxlength="10"
+              placeholder="Zip"
+            />
+          </div>
         </fieldset>
-        <hr class="hr">
+        <hr class="hr" />
         <fieldset>
-            <legend>Newsletter</legend>
-            <p>Select the newsletters you would like to recive</p>
-            
-            <input type="checkbox" id="html" class="check" name="html">
-            <label for="html">HTML News</label>
-            <br>
-            <input type="checkbox" id="css" class="check" name="css">
-            <label for="css">CSS News</label>
-            <br>
-            <input type="checkbox" id="java" class="check" name="java">
-            <label for="java">Javascript News</label>
-            
-            <p>Newsletter format</p>
-            <input type="radio" name="type" id="html2" class="type">
-            <label for="html2">HTML</label>
-            <br>
-            <input type="radio" name="type" id="plain" class="type">
-            <label for="plain">Plain text</label>
-            <br>
-            <label for="topic" class="topic" >Other Topics you'd like to hear about</label>
-            <textarea name="topics" id="topic" cols="30" rows="8" class="text" placeholder="Text"></textarea>
-            <input type="submit" name="sign_up" value="Sign up" class="subimt">
+          <legend>Newsletter</legend>
+          <p>Select the newsletters you would like to recive</p>
+
+          <input type="checkbox" id="html" class="check" name="html" />
+          <label for="html">HTML News</label>
+          <br />
+          <input type="checkbox" id="css" class="check" name="css" />
+          <label for="css">CSS News</label>
+          <br />
+          <input type="checkbox" id="java" class="check" name="java" />
+          <label for="java">Javascript News</label>
+
+          <p>Newsletter format</p>
+          <input type="radio" name="type" id="html2" class="type" />
+          <label for="html2">HTML</label>
+          <br />
+          <input type="radio" name="type" id="plain" class="type" />
+          <label for="plain">Plain text</label>
+          <br />
+          <label for="topic" class="topic"
+            >Other Topics you'd like to hear about</label
+          >
+          <textarea
+            name="topics"
+            id="topic"
+            cols="30"
+            rows="8"
+            class="text"
+            placeholder="Text"
+          ></textarea>
+          <input type="submit" name="sign_up" value="Sign up" class="subimt" />
         </fieldset>
-    </form>
-    
-    <footer>
+      </form>
+
+      <footer>
         <p class="fine"><small>Copyright The Code Review</small></p>
-    </footer>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
